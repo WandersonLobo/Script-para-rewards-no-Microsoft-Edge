@@ -43,3 +43,6 @@ def iniciar_programa():
 
         pp.press("backspace")
         sleep(0.25)
+        if i == dados[-1]:
+            pp.hotkey("ctrl","f4")
+           
